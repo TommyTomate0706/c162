@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: rgb(36, 128, 0);
+}
+canvas
+{
+    animation-name: Mau;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes  Mau
+{
+    from
+    {box-shadow: 1px 1px 38px black;}
+    to
+    {box-shadow: 1px 1px 38px gray;}
+}
